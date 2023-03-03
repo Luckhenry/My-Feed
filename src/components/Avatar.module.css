@@ -1,0 +1,13 @@
+.avatar {
+    width: 3rem; 
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.avatarWithBorder {
+    width: calc(3rem + 12px); /*o 12px vem da soma de 4px*2 = 8px + 2px*2 = 4px (8px + 4px = 12px) no caso o 4px vezes 2 e o 2px vezes 2 são referentes ao dois lados da borda.*/
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--green-500);
+}
